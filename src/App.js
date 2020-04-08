@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Layout, Menu } from 'antd';
 import './App.css';
 import HomePage from './HomePage/HomePage'
@@ -17,17 +17,14 @@ class App extends React.Component {
   }
 
   displayHomePage = () => {
-    console.log("home page clicked")
     this.setState({ pageView: 'homePage' })
   }
 
   displayProjectPage = () => {
-    console.log("project page clicked")
     this.setState({ pageView: 'projectPage' })
   }
 
   displayWorkPage = () => {
-    console.log("work page clicked")
     this.setState({ pageView: 'workPage' })
   }
 
