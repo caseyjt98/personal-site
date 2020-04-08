@@ -1,0 +1,9 @@
+.projects-container {
+    flex-wrap: wrap;
+    padding-right: 260px;
+    padding-left: 260px;
+    padding-top: 100px;
+    padding-bottom: 1000px;
+  }
+
+

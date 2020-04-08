@@ -1,37 +1,15 @@
 
 .welcome-container {
     flex-wrap: wrap;
-    padding-right: 120px;
-    padding-left: 120px;
-    padding-top: 300px;
+    padding-right: 135px;
+    padding-left: 135px; /* adjust container padding L/R to determine when the cursor stops moving */
+    padding-top: 300px; 
     padding-bottom: 1000px;
     /*background-image: url("background-img.jpg"); */
   }
 
-  .typewriter {
-      color: black;
-      font-size: 24pt;
-      line-height: 36pt;
-      font-weight: 100;
-      overflow: hidden;
-      border-right: .10em solid black; /* Typwriter cursor */
-      white-space: nowrap; /* Keeps  content on a single line */
-      margin: 0 auto; /* Gives scrolling effect as the typing happens */
-      letter-spacing: .10em;
-      animation: 
-        typing 3.5s steps(20, end),
-        blink-caret .75s step-end infinite; 
-    }
-    
-    /* Typing effect */
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    
-    /* Typewriter cursor effect */
-    @keyframes blink-caret {
-      from, to { border-color: transparent }
-      10% { border-color: black }
-    } 
+  .home-page-button {
+    color: black;
+  }
+
   

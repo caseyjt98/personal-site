@@ -10,15 +10,15 @@ class WorkPage extends React.Component {
             <div className="container">
                 <Row className="row-one">
                     <Col lg={{ span: 6, offset: 5 }}>
-                        <button id="stem" > Stem Disintermedia </button>
+                        <button className="work-button" id="stem"  > Stem Disintermedia </button>
                     </Col>
                     <Col lg={{ span: 6, offset: 2 }}>
-                        <button id="factual" > Factual </button>
+                        <button className="work-button" id="factual" > Factual </button>
                     </Col>
                 </Row>
                 <Row>
                     <Col lg={{ span: 6, offset: 9 }}>
-                        <button id="uliza" > Uliza </button>
+                        <button className="work-button" id="uliza" > Uliza </button>
                     </Col>
                 </Row>
             </div>
