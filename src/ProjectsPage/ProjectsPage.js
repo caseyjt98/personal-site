@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 
-class ProjectPage extends Component<any> {
+class ProjectPage extends React.Component {
     render() {
         return (
             <div>

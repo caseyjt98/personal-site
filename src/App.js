@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Layout, Menu } from 'antd';
 import './App.css';
-import HomePage from './HomePage/HomePage.tsx'
-import ProjectPage from './ProjectsPage/ProjectsPage.tsx'
-import WorkPage from './WorkPage/WorkPage.tsx'
+import HomePage from './HomePage/HomePage'
+import ProjectPage from './ProjectsPage/ProjectsPage'
+import WorkPage from './WorkPage/WorkPage'
 
 const { Header, Content } = Layout
 
