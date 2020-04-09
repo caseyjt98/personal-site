@@ -23,6 +23,16 @@ button:hover {
   padding-bottom: 100px;
 }
 
+.xtra-padding-sm {
+  padding-bottom: 50px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: white;
+}
+
 .typewriter {
   color: black;
   font-size: 24pt;
