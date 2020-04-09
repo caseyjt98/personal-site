@@ -1,0 +1,33 @@
+.nav {
+    background-color: #1b242f;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    /* z-index: 1000; */
+    box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.15);
+  }
+  
+  .nav-list {
+    list-style-type: none;
+  }
+
+  .nav-logo:hover {
+    cursor: pointer;
+  }
+  
+  .nav-list-item {
+    display: inline;
+    margin-left: 2rem;
+  }
+  
+  .nav-link {
+      color: white;
+      font-weight: 100;
+  }
+
+  .nav-item:hover {
+    color: black;
+    cursor: pointer;
+  }
