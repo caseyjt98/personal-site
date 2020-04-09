@@ -16,7 +16,7 @@ class ProjectPage extends React.Component {
                 <div className="xtra-padding-sm">
                     <h1 className="project-heading"> Homebru </h1>
                     <p> A mobile application built on Angular Iconic Native and serving as a method of communication for UCLA students seeking apartment subletters or subleasers during the academic school year.</p>
-                    <a href="https://github.com/caseyjt98/subletting-api"> Find me on Github! (Back end) </a>
+                    <a href="https://github.com/caseyjt98/Homebru-Backend"> Find me on Github! (Back end) </a>
                     <br />
                     <a href="https://github.com/caseyjt98/Homebru-Frontend"> Find me on Github! (Front end) </a>
                 </div>
