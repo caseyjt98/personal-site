@@ -10,21 +10,11 @@ const { Header, Content } = Layout
 
 class App extends React.Component {
 
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      pageView: 'homePage'
-    }
-  }
-
-
   render() {
 
     const gradientStyle = {
       background: 'linear-gradient(to right, #a1c4fd, #c2e9fb)'
     }
-
 
     return (
       <div className="App">
